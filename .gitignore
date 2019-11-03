@@ -29,3 +29,5 @@ genericcam
 /doc/*.pdf
 /doc/*.backup
 /doc/*.dvi
+
+.vscode
