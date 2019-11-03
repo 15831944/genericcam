@@ -270,7 +270,7 @@ bool Project::Load(wxFileName fileName)
 
 	if(!in.IsOk()){
 		printf("File is not OK: ");
-		printf(fileName.GetFullPath().ToAscii());
+		printf("%s", fileName.GetFullPath().ToAscii().data());
 		printf("\n");
 		return false;
 	}
