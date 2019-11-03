@@ -67,6 +67,9 @@ else(MINGW)
 		GLU
 		lua5.3
 		portmidi
+		math
+		stdc++
+		m
 	)
 endif(MINGW)
 
