@@ -68,6 +68,8 @@ else(MINGW)
 		lua5.3
 		portmidi
 		math
+		stdc++
+		m
 	)
 endif(MINGW)
 
